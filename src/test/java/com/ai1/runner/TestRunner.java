@@ -6,7 +6,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-	    features = "src/test/resources/features/", // Adjust this path if your features are elsewhere
+	    features = "src/test/resource/features", // Adjust this path if your features are elsewhere
 	    glue = {"com.ai1.stepdefinitions"},       // Adjust this if your glue code is in a different package
 	    tags = "@SanityCheck1235",                // Change or remove as needed
 	    plugin = {
