@@ -8,12 +8,12 @@ import org.junit.Assert;
 public class BrowserSteps {
 	private WebDriver driver;
 
-    @Given("I open the {string} browser")
+    @Given("I's open the {string} browser")
     public void i_open_the_browser(String browser) {
         driver = DriverFactory.getDriver(browser);
     }
 
-    @When("I navigate to {string}")
+    @When("I's navigate to {string}")
     public void i_navigate_to(String url) {
         driver.get(url);
     }
